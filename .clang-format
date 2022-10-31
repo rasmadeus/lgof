@@ -1,0 +1,10 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: WebKit
+BreakBeforeBraces: Allman
+NamespaceIndentation: All
+PointerAlignment: Right
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeInheritanceColon: false
+...
