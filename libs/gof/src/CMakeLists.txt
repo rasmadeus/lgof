@@ -2,6 +2,12 @@ add_library(
     gof
         abstract_factory.h
         abstract_factory.cpp
+        abstract_method.h
+        abstract_method.cpp
+        button.h
+        button.cpp
+        check_box.h
+        check_box.cpp
 )
 
 include(GenerateExportHeader)

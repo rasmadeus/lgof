@@ -10,6 +10,10 @@ add_executable(
         main.cpp
         abstract_factory_test.h
         abstract_factory_test.cpp
+        abstract_method_test.h
+        abstract_method_test.cpp
+        std_cout_redirect.h
+        std_cout_redirect.cpp
 )
 
 target_link_libraries(
