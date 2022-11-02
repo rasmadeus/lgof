@@ -11,16 +11,16 @@ void AbstractFactoryTest::check(AbstractFactoryClient const &client, std::string
     EXPECT_EQ(expectedCout, stdCoutRedirect.string());
 }
 
-TEST_F(AbstractFactoryTest, TestWinApplication)
+TEST_F(AbstractFactoryTest, TestWinConfig)
 {
     auto const factory = WinFactory{};
     auto const client = AbstractFactoryClient{ factory };
-    check(client, "WinButtonWinCheckBox");
+    check(client, "WinButtonPaintWinCheckBoxPaint");
 }
 
-TEST_F(AbstractFactoryTest, TestLinuxApplication)
+TEST_F(AbstractFactoryTest, TestLinuxConfig)
 {
-    auto const factory = WinFactory{};
+    auto const factory = LinuxFactory{};
     auto const client = AbstractFactoryClient{ factory };
-    check(client, "LinuxButtonLinuxCheckBox");
+    check(client, "LinuxButtonPaintLinuxCheckBoxPaint");
 }

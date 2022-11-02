@@ -8,6 +8,8 @@ add_library(
         button.cpp
         check_box.h
         check_box.cpp
+        singleton.h
+        singleton.cpp
 )
 
 include(GenerateExportHeader)

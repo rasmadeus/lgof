@@ -5,10 +5,10 @@ using namespace lgof;
 
 void WinCheckBox::paint() const
 {
-    std::cout << "WinCheckBox";
+    std::cout << "WinCheckBoxPaint";
 }
 
 void LinuxCheckBox::paint() const
 {
-    std::cout << "LinuxCheckBox";
+    std::cout << "LinuxCheckBoxPaint";
 }
