@@ -4,6 +4,8 @@ add_library(
         abstract_factory.cpp
         abstract_method.h
         abstract_method.cpp
+        builder.h
+        builder.cpp
         button.h
         button.cpp
         check_box.h
