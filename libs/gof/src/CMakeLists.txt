@@ -10,6 +10,8 @@ add_library(
         button.cpp
         check_box.h
         check_box.cpp
+        prototype.h
+        prototype.cpp
         singleton.h
         singleton.cpp
 )

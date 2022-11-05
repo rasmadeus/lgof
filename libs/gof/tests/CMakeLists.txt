@@ -14,6 +14,8 @@ add_executable(
         abstract_method_test.cpp
         builder_test.h
         builder_test.cpp
+        prototype_test.h
+        prototype_test.cpp
         singleton_test.h
         singleton_test.cpp
         std_cout_redirect.h
