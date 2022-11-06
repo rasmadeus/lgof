@@ -4,7 +4,7 @@
 
 namespace lgof
 {
-    class DataBase
+    class GOF_EXPORT DataBase
     {
     public:
         static DataBase &instance();

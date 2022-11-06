@@ -12,6 +12,8 @@ add_executable(
         abstract_factory_test.cpp
         abstract_method_test.h
         abstract_method_test.cpp
+        adapter_test.h
+        adapter_test.cpp
         builder_test.h
         builder_test.cpp
         prototype_test.h
