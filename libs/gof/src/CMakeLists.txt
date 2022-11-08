@@ -16,6 +16,8 @@ add_library(
         check_box.cpp
         composite.h
         composite.cpp
+        decorator.h
+        decorator.cpp
         prototype.h
         prototype.cpp
         singleton.h
