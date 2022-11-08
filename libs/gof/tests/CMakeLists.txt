@@ -18,6 +18,8 @@ add_executable(
         bridge_test.cpp
         builder_test.h
         builder_test.cpp
+        composite_test.h
+        composite_test.cpp
         prototype_test.h
         prototype_test.cpp
         singleton_test.h

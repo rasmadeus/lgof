@@ -14,6 +14,8 @@ add_library(
         button.cpp
         check_box.h
         check_box.cpp
+        composite.h
+        composite.cpp
         prototype.h
         prototype.cpp
         singleton.h
