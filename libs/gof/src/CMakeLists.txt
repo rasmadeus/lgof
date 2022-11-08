@@ -6,6 +6,8 @@ add_library(
         abstract_method.cpp
         adapter.h
         adapter.cpp
+        bridge.h
+        bridge.cpp
         builder.h
         builder.cpp
         button.h

@@ -14,6 +14,8 @@ add_executable(
         abstract_method_test.cpp
         adapter_test.h
         adapter_test.cpp
+        bridge_test.h
+        bridge_test.cpp
         builder_test.h
         builder_test.cpp
         prototype_test.h
