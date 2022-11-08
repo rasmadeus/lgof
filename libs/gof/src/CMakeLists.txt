@@ -18,6 +18,8 @@ add_library(
         composite.cpp
         decorator.h
         decorator.cpp
+        facade.h
+        facade.cpp
         prototype.h
         prototype.cpp
         singleton.h

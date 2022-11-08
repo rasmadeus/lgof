@@ -22,6 +22,8 @@ add_executable(
         composite_test.cpp
         decorator_test.h
         decorator_test.cpp
+        facade_test.h
+        facade_test.cpp
         prototype_test.h
         prototype_test.cpp
         singleton_test.h
