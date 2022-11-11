@@ -24,6 +24,8 @@ add_executable(
         decorator_test.cpp
         facade_test.h
         facade_test.cpp
+        flyweight_test.h
+        flyweight_test.cpp
         prototype_test.h
         prototype_test.cpp
         singleton_test.h

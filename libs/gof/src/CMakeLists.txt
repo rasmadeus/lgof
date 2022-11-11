@@ -20,6 +20,8 @@ add_library(
         decorator.cpp
         facade.h
         facade.cpp
+        flyweight.h
+        flyweight.cpp
         prototype.h
         prototype.cpp
         singleton.h
