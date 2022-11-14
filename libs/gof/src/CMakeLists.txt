@@ -24,6 +24,8 @@ add_library(
         flyweight.cpp
         prototype.h
         prototype.cpp
+        proxy.h
+        proxy.cpp
         singleton.h
         singleton.cpp
 )

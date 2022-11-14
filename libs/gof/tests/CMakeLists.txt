@@ -28,6 +28,8 @@ add_executable(
         flyweight_test.cpp
         prototype_test.h
         prototype_test.cpp
+        proxy_test.h
+        proxy_test.cpp
         singleton_test.h
         singleton_test.cpp
         std_cout_redirect.h
