@@ -12,6 +12,8 @@ add_library(
         builder.cpp
         button.h
         button.cpp
+        chain_of_response.h
+        chain_of_response.cpp
         check_box.h
         check_box.cpp
         composite.h
