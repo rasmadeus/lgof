@@ -20,6 +20,8 @@ add_executable(
         builder_test.cpp
         chain_of_response_test.h
         chain_of_response_test.cpp
+	  command_test.h
+        command_test.cpp
         composite_test.h
         composite_test.cpp
         decorator_test.h

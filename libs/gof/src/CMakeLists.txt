@@ -16,6 +16,8 @@ add_library(
         chain_of_response.cpp
         check_box.h
         check_box.cpp
+        command.h
+        command.cpp
         composite.h
         composite.cpp
         decorator.h
