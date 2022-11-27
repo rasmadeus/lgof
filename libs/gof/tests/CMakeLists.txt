@@ -20,7 +20,7 @@ add_executable(
         builder_test.cpp
         chain_of_response_test.h
         chain_of_response_test.cpp
-	  command_test.h
+        command_test.h
         command_test.cpp
         composite_test.h
         composite_test.cpp
@@ -30,6 +30,8 @@ add_executable(
         facade_test.cpp
         flyweight_test.h
         flyweight_test.cpp
+        iterator_test.h
+        iterator_test.cpp
         prototype_test.h
         prototype_test.cpp
         proxy_test.h

@@ -26,6 +26,8 @@ add_library(
         facade.cpp
         flyweight.h
         flyweight.cpp
+        iterator.h
+        iterator.cpp
         prototype.h
         prototype.cpp
         proxy.h
