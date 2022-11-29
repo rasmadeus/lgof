@@ -28,6 +28,8 @@ add_library(
         flyweight.cpp
         iterator.h
         iterator.cpp
+        mediator.h
+        mediator.cpp
         prototype.h
         prototype.cpp
         proxy.h

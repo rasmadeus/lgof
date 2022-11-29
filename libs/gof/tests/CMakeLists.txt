@@ -32,6 +32,8 @@ add_executable(
         flyweight_test.cpp
         iterator_test.h
         iterator_test.cpp
+        mediator_test.h
+        mediator_test.cpp
         prototype_test.h
         prototype_test.cpp
         proxy_test.h
