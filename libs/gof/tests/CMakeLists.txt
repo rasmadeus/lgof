@@ -34,6 +34,8 @@ add_executable(
         iterator_test.cpp
         mediator_test.h
         mediator_test.cpp
+        memento_test.h
+        memento_test.cpp
         prototype_test.h
         prototype_test.cpp
         proxy_test.h

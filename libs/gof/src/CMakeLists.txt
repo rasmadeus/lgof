@@ -30,6 +30,8 @@ add_library(
         iterator.cpp
         mediator.h
         mediator.cpp
+        memento.h
+        memento.cpp
         prototype.h
         prototype.cpp
         proxy.h
