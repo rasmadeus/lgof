@@ -59,7 +59,6 @@ std::string CoffeeAdvertisementBuilder::get() const
 
     auto const sizeDescription = sizeDescriptions.find(m_coffee.cupSize());
     assert(sizeDescription != sizeDescriptions.cend());
-
     return std::format("Size: {}; Sugar: {}", sizeDescription->second, m_coffee.sugar());
 }
 

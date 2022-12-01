@@ -32,6 +32,8 @@ add_library(
         mediator.cpp
         memento.h
         memento.cpp
+        observer.h
+        observer.cpp
         prototype.h
         prototype.cpp
         proxy.h
