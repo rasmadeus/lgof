@@ -40,6 +40,8 @@ add_library(
         proxy.cpp
         singleton.h
         singleton.cpp
+        strategy.h
+        strategy.cpp
 )
 
 include(GenerateExportHeader)

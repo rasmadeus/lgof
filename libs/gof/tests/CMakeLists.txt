@@ -44,6 +44,8 @@ add_executable(
         proxy_test.cpp
         singleton_test.h
         singleton_test.cpp
+        strategy_test.h
+        strategy_test.cpp
         std_cout_redirect.h
         std_cout_redirect.cpp
 )
