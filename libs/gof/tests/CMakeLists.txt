@@ -48,6 +48,8 @@ add_executable(
         strategy_test.cpp
         std_cout_redirect.h
         std_cout_redirect.cpp
+        template_method_test.h
+        template_method_test.cpp
 )
 
 target_link_libraries(

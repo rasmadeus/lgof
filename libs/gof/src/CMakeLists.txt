@@ -42,6 +42,8 @@ add_library(
         singleton.cpp
         strategy.h
         strategy.cpp
+        template_method.h
+        template_method.cpp
 )
 
 include(GenerateExportHeader)
