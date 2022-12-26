@@ -50,6 +50,8 @@ add_executable(
         std_cout_redirect.cpp
         template_method_test.h
         template_method_test.cpp
+        visitor_test.h
+        visitor_test.cpp
 )
 
 target_link_libraries(

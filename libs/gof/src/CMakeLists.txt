@@ -44,6 +44,8 @@ add_library(
         strategy.cpp
         template_method.h
         template_method.cpp
+        visitor.h
+        visitor.cpp
 )
 
 include(GenerateExportHeader)
