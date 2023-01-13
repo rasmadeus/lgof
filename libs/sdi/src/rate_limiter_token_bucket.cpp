@@ -2,25 +2,19 @@
 
 using namespace sdi::rate_limiter_token_bucket;
 
-Bucket::Bucket(int bucketSize, std::chrono::milliseconds tokenRefillRate)
+Bucket::Bucket(int bucketSize)
     : m_bucketSize{ bucketSize }
     , m_availableTokens{ m_bucketSize }
 {
-    m_timer.setInterval(tokenRefillRate, [this]()
-        {
-            std::lock_guard const lock{ m_availableTokensMutex };
-            m_availableTokens = m_bucketSize;
-        });
 }
 
-Bucket::~Bucket()
+void Bucket::refill()
 {
-    m_timer.stop();
+    m_availableTokens = m_bucketSize;
 }
 
 bool Bucket::take()
 {
-    std::lock_guard const lock{ m_availableTokensMutex };
     if (m_availableTokens == 0)
     {
         return false;

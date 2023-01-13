@@ -2,7 +2,7 @@
 
 #include <sdi_export.h>
 
-namespace sdi::rate_limiter_token_bucket
+namespace sdi::rate_limiter_leaking_bucket
 {
     class Bucket
     {
@@ -13,6 +13,6 @@ namespace sdi::rate_limiter_token_bucket
 
     private:
         int const m_bucketSize;
-        int m_availableTokens;
+        int m_queueSize = 0;
     };
 }

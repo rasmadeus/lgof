@@ -1,9 +1,9 @@
-#include "rate_limiter_token_bucket_test.h"
-#include <rate_limiter_token_bucket.h>
+#include "rate_limiter_leaking_bucket_test.h"
+#include <rate_limiter_leaking_bucket.h>
 
-using namespace sdi::rate_limiter_token_bucket;
+using namespace sdi::rate_limiter_leaking_bucket;
 
-TEST_F(TokenBucketTest, TestBucket)
+TEST_F(LeakingBucketTest, TestBucket)
 {
     auto bucket = Bucket{ 2 };
 

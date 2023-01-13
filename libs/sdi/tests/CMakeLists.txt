@@ -10,6 +10,10 @@ add_executable(
         main.cpp
         rate_limiter_token_bucket_test.h
         rate_limiter_token_bucket_test.cpp
+        rate_limiter_leaking_bucket_test.h
+        rate_limiter_leaking_bucket_test.cpp
+        rate_limiter_sliding_window_test.h
+        rate_limiter_sliding_window_test.cpp
 )
 
 target_link_libraries(

@@ -2,6 +2,10 @@ add_library(
     sdi
         rate_limiter_token_bucket.h
         rate_limiter_token_bucket.cpp
+        rate_limiter_leaking_bucket.h
+        rate_limiter_leaking_bucket.cpp
+        rate_limiter_sliding_window.h
+        rate_limiter_sliding_window.cpp
 )
 
 target_link_libraries(
