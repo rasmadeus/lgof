@@ -1,5 +1,7 @@
 add_library(
     sdi
+        consistent_hashing.h
+        consistent_hashing.cpp
         rate_limiter_token_bucket.h
         rate_limiter_token_bucket.cpp
         rate_limiter_leaking_bucket.h

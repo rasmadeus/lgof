@@ -8,6 +8,8 @@ find_package(
 add_executable(
     unit_test_sdi
         main.cpp
+        consistent_hashing_test.h
+        consistent_hashing_test.cpp
         rate_limiter_token_bucket_test.h
         rate_limiter_token_bucket_test.cpp
         rate_limiter_leaking_bucket_test.h
