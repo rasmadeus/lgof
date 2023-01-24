@@ -23,3 +23,14 @@ TEST_F(ConsistentHasherTest, TestSimpleHasher)
     hasher.addServer(1);
     EXPECT_EQ(1, hasher.findServerFor(1));
 }
+
+TEST_F(ConsistentHasherTest, TestRingHasher)
+{
+    auto hasher = RingHasher{};
+    EXPECT_EQ(-1, hasher.findServerFor(1));
+
+    hasher.addServer(10);
+    EXPECT_EQ(10, hasher.findServerFor(1));
+    EXPECT_EQ(10, hasher.findServerFor(10));
+    EXPECT_EQ(10, hasher.findServerFor(12));
+}

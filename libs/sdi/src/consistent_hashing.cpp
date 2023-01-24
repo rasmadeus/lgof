@@ -18,7 +18,7 @@ void SimpleHasher::removeServer(ServerId id)
     rehash();
 }
 
-int SimpleHasher::findServerFor(ServerId id)
+ServerId SimpleHasher::findServerFor(Key id)
 {
     const auto it = m_hash.find(id);
     return it == m_hash.cend() ? -1 : it->second;
@@ -46,4 +46,26 @@ void SimpleHasher::rehash()
             serverId = m_servers[serverIndex].id;
         }
     }
+}
+
+bool RingHasher::addServer(ServerId id)
+{
+    auto const res = m_servers.emplace(id, Server{ id });
+    return res.second;
+}
+
+void RingHasher::removeServer(ServerId id)
+{
+    m_servers.erase(id);
+}
+
+ServerId RingHasher::findServerFor(Key key)
+{
+    if (m_servers.empty())
+    {
+        return -1;
+    }
+
+    auto const it = m_servers.lower_bound(key);
+    return it == m_servers.cend() ? m_servers.cbegin()->second.id : it->second.id;
 }
